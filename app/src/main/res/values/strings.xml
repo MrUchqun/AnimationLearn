@@ -1,0 +1,15 @@
+<resources  >
+    <string name="app_name">AnimationLearn</string>
+    <string name="page_first_one">Telegram</string>
+    <string name="page_first_two">The world"'"s <b> fastest </b> messaging app.\nIt is <b>free</b> and <b>secure</b>.</string>
+    <string name="page_second_one">Fast</string>
+    <string name="page_second_two"><b>Telegram</b> delivers messages\nfaster than any other application.</string>
+    <string name="page_third_one">Free</string>
+    <string name="page_third_two"><b>Telegram</b> is free forever. No ads.\nNo subscription fees.</string>
+    <string name="page_fourth_one">Powerful</string>
+    <string name="page_fourth_two"><b>Telegram</b> has no limits on\nthe size of your media and chats.</string>
+    <string name="page_fifth_one">Secure</string>
+    <string name="page_fifth_two"><b>Telegram</b> keeps your messages\nsafe from hacker attacks.</string>
+    <string name="page_sixth_one">Cloud-Based</string>
+    <string name="page_sixth_two"><b>Telegram</b> lets you access your\nmessages from multiple devices.</string>
+</resources>
