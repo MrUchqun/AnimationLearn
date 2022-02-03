@@ -1,23 +1,23 @@
-package com.example.animationlearn
+package com.example.animationlearn.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.core.text.HtmlCompat
 import androidx.viewpager.widget.ViewPager
 import com.airbnb.lottie.LottieAnimationView
+import com.example.animationlearn.R
 import com.example.animationlearn.adapter.ViewPagerAdapter
 import com.example.animationlearn.fragment.ViewPagerFragment
-import com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
 
-class MainActivity : AppCompatActivity() {
+class JsonActivity : AppCompatActivity() {
 
     private lateinit var lottieAnimationView: LottieAnimationView
     private lateinit var viewPager: ViewPager
-    private lateinit var dotsIndicator: DotsIndicator
+    private lateinit var dotsIndicator: WormDotsIndicator
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_json)
         initViews()
     }
 
@@ -29,12 +29,30 @@ class MainActivity : AppCompatActivity() {
 
         val adapter = ViewPagerAdapter(supportFragmentManager)
 
-        adapter.addFragment(ViewPagerFragment().newInstance(R.string.page_first_one, R.string.page_first_two))
-        adapter.addFragment(ViewPagerFragment().newInstance(R.string.page_second_one, R.string.page_second_two))
-        adapter.addFragment(ViewPagerFragment().newInstance(R.string.page_third_one, R.string.page_third_two))
-        adapter.addFragment(ViewPagerFragment().newInstance(R.string.page_fourth_one, R.string.page_fourth_two))
-        adapter.addFragment(ViewPagerFragment().newInstance(R.string.page_fifth_one, R.string.page_fifth_two))
-        adapter.addFragment(ViewPagerFragment().newInstance(R.string.page_sixth_one, R.string.page_sixth_two))
+        adapter.addFragment(ViewPagerFragment().newInstance(
+            R.string.page_first_one,
+            R.string.page_first_two
+        ))
+        adapter.addFragment(ViewPagerFragment().newInstance(
+            R.string.page_second_one,
+            R.string.page_second_two
+        ))
+        adapter.addFragment(ViewPagerFragment().newInstance(
+            R.string.page_third_one,
+            R.string.page_third_two
+        ))
+        adapter.addFragment(ViewPagerFragment().newInstance(
+            R.string.page_fourth_one,
+            R.string.page_fourth_two
+        ))
+        adapter.addFragment(ViewPagerFragment().newInstance(
+            R.string.page_fifth_one,
+            R.string.page_fifth_two
+        ))
+        adapter.addFragment(ViewPagerFragment().newInstance(
+            R.string.page_sixth_one,
+            R.string.page_sixth_two
+        ))
 
         viewPager = findViewById(R.id.view_pager)
         viewPager.adapter = adapter

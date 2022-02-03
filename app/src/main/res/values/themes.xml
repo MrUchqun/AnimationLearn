@@ -3,7 +3,7 @@
     <style name="Theme.AnimationLearn" parent="Theme.Design.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">#757575</item>
+        <item name="colorPrimaryVariant">#0077C5</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|top"
+    android:orientation="vertical"
+    tools:context=".activity.CustomAnimActivity">
+
+    <ImageView
+        android:id="@+id/iv_anim"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo_anim" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Enter Animation : "
+        android:textColor="#0077C5"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_bounce"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="Bounce"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_sequential"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="Sequential"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_together"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="Togather"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

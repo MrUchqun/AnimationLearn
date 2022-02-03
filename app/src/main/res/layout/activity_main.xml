@@ -4,49 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="bottom|center_horizontal"
+    android:gravity="center_horizontal|top"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:gravity="center">
-
-        <com.airbnb.lottie.LottieAnimationView
-            android:id="@+id/lottie_anim_view_first"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            app:lottie_autoPlay="true"
-            app:lottie_fileName="anim_two_fast.json" />
-
-    </LinearLayout>
-
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/view_pager"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
-
-    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
-        android:id="@+id/dots_indicator"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:dotsColor="#C3C3C3"
-        app:dotsCornerRadius="8dp"
-        app:dotsSize="5dp"
-        app:dotsSpacing="2dp"
-        app:dotsWidthFactor="2.5"
-        app:selectedDotColor="#636363" />
+    tools:context=".activity.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="40dp"
-        android:text="Start Messaging"
-        android:textColor="@color/color_text"
-        android:textSize="17sp"
-        android:textStyle="bold" />
+        android:layout_marginVertical="100dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#0077C5"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btn_custom_anim"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/button_background"
+        android:text="Custom Animation"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_json_anim"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/button_background"
+        android:text="Lottie Animation"
+        android:textColor="@color/white" />
 
 </LinearLayout>

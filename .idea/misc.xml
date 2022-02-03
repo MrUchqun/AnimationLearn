@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/AnimationLearn/app/src/main/res/drawable/button_background.xml" value="0.1795" />
+        <entry key="..\:/AndroidStudioProjects/AnimationLearn/app/src/main/res/layout/activity_custom_anim.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/AnimationLearn/app/src/main/res/layout/activity_json.xml" value="0.27447916666666666" />
         <entry key="..\:/AndroidStudioProjects/AnimationLearn/app/src/main/res/layout/activity_main.xml" value="0.27025641025641023" />
         <entry key="..\:/AndroidStudioProjects/AnimationLearn/app/src/main/res/layout/fragment_first_telegram.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/AnimationLearn/app/src/main/res/layout/fragment_second_fast.xml" value="0.2713541666666667" />
